@@ -1,0 +1,157 @@
+.wrapper{
+    width: 400px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header{
+   background-color: #FFCE7a;
+   width: 400px;
+   height: 100px;
+}
+.left{
+    float: left;
+    background-color: #9DDDF4;
+    width: 150px;
+    height: 250px;
+}
+.right{
+    float:right;
+    background-color: #F89C9C;
+    width: 100px;
+    height: 150px;
+}
+.center{
+    float: left;
+}
+.topcenter{
+    background-color: #C2FFC8;
+    width: 150px;
+    height: 50px;
+}
+.centermain{
+    background-color: #FFC2C5;
+    width: 150px;
+    height: 100px;
+}
+.centerunder{
+    background-color: #FFF083;
+    width: 250px;
+    height: 100px;
+}
+.fooder{
+    background-color: #BEA5FF;
+    width: 400px;
+    height: 100px;
+}
+
+@media screen and (max-width:767px){
+
+.wrapper{
+    width: 300px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header{
+   background-color: #FFCE7a;
+   width: 300px;
+   height: 100px;
+}
+.left{
+    float: left;
+    background-color: #9DDDF4;
+    width: 100px;
+    height: 250px;
+}
+.right{
+    float:right;
+    background-color: #F89C9C;
+    width: 75px;
+    height: 150px;
+}
+.center{
+    
+    float: left;
+}
+.topcenter{
+    background-color: #C2FFC8;
+    width: 125px;
+    height: 50px;
+}
+.centermain{
+    background-color: #FFC2C5;
+    width: 125px;
+    height: 100px;
+}
+.centerunder{
+    background-color: #FFF083;
+    width: 200px;
+    height: 100px;
+}
+.fooder{
+    background-color: #BEA5FF;
+    width: 300px;
+    height: 100px;
+}
+
+}
+
+@media screen and (max-width:479px){
+.wrapper{
+    width: 150px;
+}
+
+.header{
+   background-color: #FFCE7a;
+   height: 100px;
+    width: 150px;
+}
+.left{
+    float: none;
+    background-color: #9DDDF4;
+    height: 100px;
+    width: 150px;
+}
+.right{
+    float: none;
+    background-color: #F89C9C;
+    height: 100px;
+    width: 150px;
+}
+.center{
+    
+    float:none
+}
+.topcenter{
+    float: none;
+    background-color: #C2FFC8;
+    height: 50px;
+    width: 150px;
+}
+.centermain{
+    float: none;
+    background-color: #FFC2C5;
+    height: 100px;
+    width: 150px;
+}
+.centerunder{
+    float: none;
+    background-color: #FFF083;
+    height: 100px;
+    width: 150px;
+}
+.fooder{
+    background-color: #BEA5FF;
+    height: 100px;
+    width: 150px;
+}
+}
