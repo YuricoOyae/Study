@@ -56,22 +56,32 @@
 
 }
 .right{
+    float: right;
+    background-color: #C2FFC8;
     width: 200px;
     height: 200px;
-    background-color: #C2FFC8;
+}
+
+.rightbox{
     margin-top: 20px;
-    margin-right: auto;
+    margin-right: 20px;
     margin-left: 30px;
 
 }
 
-.rightbox{
-    width: 200px;
-    height: 200px;
-    margin: 0%;
+.right1{   
+    width: 150px;
+    height: 50px;
+    margin: 4px;
+
+   
+}
+.right2{
+    width: 140px;
+    height: 40px;
+    margin:auto;
 
 }
-
 
 .bg-white{
     margin: 6px 0;

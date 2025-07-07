@@ -51,12 +51,14 @@
     background-color: #C2FFC8;
     width: 250px;
     height: 250px;
+
 }
 
 .rightbox{
     margin-top: 40px;
     margin-right: 60px;
     margin-left:  40px;
+    margin-bottom: 40px;
 }
 
 
