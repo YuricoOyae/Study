@@ -9,9 +9,13 @@ FROM Stocks
 WHERE Quantity >= 10 AND Quantity < 25;
 
 -- 3. INTERSECT演算子を使用して、Order_Headerテーブルで合計値(Total)が5000以上10000未満のものを抽出して下さい。
-SELECT Total FROM Order_Header WHERE Total > 5000
+SELECT *
+FROM Order_Header
+WHERE Total >= 5000
 INTERSECT
-SELECT Total FROM Order_Header WHERE Total < 10000;
+SELECT *
+FROM Order_Header
+WHERE Total < 10000;
 
 -- 4. 「関東」エリアの全店舗情報を抽出して下さい。
 SELECT Shop.*FROM Shop
