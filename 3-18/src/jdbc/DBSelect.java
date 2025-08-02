@@ -45,9 +45,11 @@ import java.sql.Statement;
 	            // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
 	            connection = DriverManager.getConnection(JDBC_CONNECTION, USER, PASS);
 	            statement = connection.createStatement();
-
-	            String SQL = "SELECT * FROM SHOHIN_TB";
+	            
+	        // 問⑤ SHOHIN_IDが001と020のものを表示させるためのSQL文を記述しましょう。
+	            String SQL = "SELECT * FROM SHOHIN_TB WHERE SHOHIN_ID IN ('001', '020')";
 	            resultSet = statement.executeQuery(SQL);
+	            
 	            
 	            while (resultSet.next()) {
 	                // 問⑥ それぞれカラム名を入力して下さい。
