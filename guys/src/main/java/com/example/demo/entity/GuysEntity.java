@@ -53,7 +53,7 @@ public class GuysEntity  {
    * 入社日
    */
   @Column(name = "join_date")
-  private Date updateDate;
+  private Date joinDate;
 
 
   /**
