@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
- * ユーザー情報 Entity
+ * ガイズ情報 Entity
  */
 @Data
 @Entity
@@ -47,7 +47,6 @@ public class GuysEntity  {
    */
   @Column(name = "phone")
   private String phone;
-
 
   /**
    * 入社日

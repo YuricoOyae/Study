@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="common/head :: head_fragment(title = 'ガイズ一覧', scripts = ~{::script}, links = ~{::link})"></head>
+<head th:replace="common/head :: head_fragment(title = 'ガイズ情報一覧', scripts = ~{::script}, links = ~{::link})"></head>
 <body>
  <div class="container">
    <h1>ガイズ情報一覧</h1>
    <div class="float-end">
-     <a th:href="@{/subject/add}" class="btn btn-primary">新規登録はこちら</a>
+     <a th:href="@{/guys/add}" class="btn btn-primary">新規登録はこちら</a>
    </div>
    <table class="table table-striped">
      <thead>
        <tr>
-         <th> ID</th>
-         <th>ガイズ</th>
-         <th></th>
+          <th>ID</th>
+          <th>名前</th>
+          <th>住所</th>
+          <th>電話番号</th>
+          <th>入社日</th>
+          <th>昇格日</th>
+          <th>詳細</th>
        </tr>
      </thead>
      <tbody>
-       <tr th:each="sguys : ${guyslist}" th:object="${guys}" class="align-middle">
-         <td th:text="*{ID}"></td>
-         <td th:text="*{guys}"></td>
-         <td><a th:href="@{/guys/{ID}(ID=*{ID})}" class="btn btn-secondary">詳細</a></td>
+       <tr th:each="guys : ${guyslist}" th:object="${guys}" class="align-middle">
+          <td th:text="*{id}"></td>
+          <td th:text="*{name}"></td>
+          <td th:text="*{address}"></td>
+          <td th:text="*{phone}"></td>
+          <td th:text="${#dates.format(guys.joinDate, 'yyyy/MM/dd')}"></td>
+          <td th:text="${#dates.format(guys.promotionDate, 'yyyy/MM/dd')}"></td>
+          <td><a th:href="@{/guys/{id}(id=*{id})}" class="btn btn-secondary">詳細</a></td>
        </tr>
      </tbody>
    </table>
