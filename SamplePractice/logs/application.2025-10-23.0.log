@@ -1,0 +1,208 @@
+2025-10-23 01:07:05.999 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s723ms).
+2025-10-23 01:26:02.342 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m56s18ms).
+2025-10-23 03:26:27.934 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s598ms).
+2025-10-23 05:27:23.490 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s540ms).
+2025-10-23 07:28:18.965 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s460ms).
+2025-10-23 08:55:03.915 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m14s924ms).
+2025-10-23 08:57:45.149 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@348bf637 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:57:50.514 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@706f7aa7 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:57:55.843 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1eea0297 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:58:01.114 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@23a4b53b (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:58:15.651 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4343ad35 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:58:35.726 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@479926cd (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:58:56.947 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@b49f557 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 08:59:02.073 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@56dc6f8d (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 09:05:01.724 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.3.Final
+2025-10-23 09:05:02.083 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Starting SamplePracticeApplication using Java 21.0.2 with PID 12123 (/Users/Yurico/Java/Study/SamplePractice/target/classes started by Yurico in /Users/Yurico/Java/Study/SamplePractice)
+2025-10-23 09:05:02.086 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2025-10-23 09:05:02.328 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-23 09:05:02.328 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-23 09:05:08.583 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2025-10-23 09:05:08.641 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:05:08.646 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2025-10-23 09:05:08.646 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-23 09:05:08.781 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2025-10-23 09:05:08.782 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6442 ms
+2025-10-23 09:05:14.134 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2025-10-23 09:05:15.735 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6cc635c0
+2025-10-23 09:05:15.741 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2025-10-23 09:05:15.773 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/SamplePractice'
+2025-10-23 09:05:16.065 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2025-10-23 09:05:16.219 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:05:16.320 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8080 (http) with context path '/'
+2025-10-23 09:05:16.357 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Started SamplePracticeApplication in 16.919 seconds (process running for 23.105)
+2025-10-23 09:10:28.397 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e13d9e0 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 09:13:41.984 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.3.Final
+2025-10-23 09:13:42.332 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Starting SamplePracticeApplication using Java 21.0.2 with PID 12416 (/Users/Yurico/Java/Study/SamplePractice/target/classes started by Yurico in /Users/Yurico/Java/Study/SamplePractice)
+2025-10-23 09:13:42.333 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2025-10-23 09:13:42.584 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-23 09:13:42.584 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-23 09:13:46.982 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2025-10-23 09:13:47.033 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:13:47.042 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2025-10-23 09:13:47.043 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-23 09:13:47.167 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2025-10-23 09:13:47.167 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 4580 ms
+2025-10-23 09:13:49.964 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2025-10-23 09:13:50.797 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@cc586d9
+2025-10-23 09:13:50.804 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2025-10-23 09:13:50.837 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/SamplePractice'
+2025-10-23 09:13:51.142 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2025-10-23 09:13:51.224 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:13:51.306 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8080 (http) with context path '/'
+2025-10-23 09:13:51.345 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Started SamplePracticeApplication in 11.717 seconds (process running for 18.121)
+2025-10-23 09:23:40.424 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s83ms).
+2025-10-23 09:27:26.016 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.3.Final
+2025-10-23 09:27:26.332 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Starting SamplePracticeApplication using Java 21.0.2 with PID 12900 (/Users/Yurico/Java/Study/SamplePractice/target/classes started by Yurico in /Users/Yurico/Java/Study/SamplePractice)
+2025-10-23 09:27:26.334 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2025-10-23 09:27:26.547 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-23 09:27:26.548 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-23 09:27:31.356 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2025-10-23 09:27:31.417 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:27:31.423 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2025-10-23 09:27:31.423 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-23 09:27:31.568 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2025-10-23 09:27:31.569 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 5018 ms
+2025-10-23 09:27:34.531 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2025-10-23 09:27:35.504 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1436fda0
+2025-10-23 09:27:35.513 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2025-10-23 09:27:35.558 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/SamplePractice'
+2025-10-23 09:27:35.833 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2025-10-23 09:27:35.919 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:27:36.032 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8080 (http) with context path '/'
+2025-10-23 09:27:36.076 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Started SamplePracticeApplication in 12.381 seconds (process running for 18.565)
+2025-10-23 09:29:43.497 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-23 09:29:43.503 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2025-10-23 09:29:43.533 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 30 ms
+2025-10-23 09:31:12.078 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.3.Final
+2025-10-23 09:31:12.385 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Starting SamplePracticeApplication using Java 21.0.2 with PID 12982 (/Users/Yurico/Java/Study/SamplePractice/target/classes started by Yurico in /Users/Yurico/Java/Study/SamplePractice)
+2025-10-23 09:31:12.389 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2025-10-23 09:31:12.614 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-23 09:31:12.614 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-23 09:31:16.986 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2025-10-23 09:31:17.031 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:31:17.040 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2025-10-23 09:31:17.040 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-23 09:31:17.161 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2025-10-23 09:31:17.162 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 4546 ms
+2025-10-23 09:31:19.884 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2025-10-23 09:31:20.879 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53d18d3e
+2025-10-23 09:31:20.889 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2025-10-23 09:31:20.943 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/SamplePractice'
+2025-10-23 09:31:21.256 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2025-10-23 09:31:21.332 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+2025-10-23 09:31:21.404 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8080 (http) with context path '/'
+2025-10-23 09:31:21.454 [restartedMain] INFO  c.e.demo.SamplePracticeApplication -
+				Started SamplePracticeApplication in 11.377 seconds (process running for 13.878)
+2025-10-23 09:31:27.371 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-23 09:31:27.374 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2025-10-23 09:31:27.380 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 5 ms
+2025-10-23 09:37:15.774 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@413197d9 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 09:37:21.708 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@42e0920e (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 11:53:23.963 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s793ms).
+2025-10-23 17:30:30.456 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h37m6s419ms).
+2025-10-23 17:30:56.848 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.PoolBase -
+				HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@11224df6 (このコネクションは既にクローズされています。). Possibly consider using a shorter maxLifetime value.
+2025-10-23 19:31:59.733 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s564ms).

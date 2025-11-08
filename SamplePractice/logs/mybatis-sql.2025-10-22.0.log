@@ -1,0 +1,20 @@
+2025-10-22 00:57:27.710 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 00:57:49.296 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils -
+				Fetching JDBC Connection from DataSource
+2025-10-22 01:02:06.002 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:04:30.995 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:08:37.287 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:11:07.099 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:12:24.806 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:14:57.676 [restartedMain] DEBUG o.apache.ibatis.logging.LogFactory -
+				Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-10-22 01:15:36.515 [http-nio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceUtils -
+				Fetching JDBC Connection from DataSource
+2025-10-22 01:15:36.515 [http-nio-8080-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils -
+				Fetching JDBC Connection from DataSource
