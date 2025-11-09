@@ -7,12 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.demo.dao.Param;
 import com.example.demo.dao.UserMapper;
 import com.example.demo.dto.UserRequest;
 import com.example.demo.dto.UserUpdateRequest;
 import com.example.demo.entity.UserEntity;
-import com.example.demo.repository.UserRepository;
+
 
 /**
  * ユーザー情報 Service
@@ -23,9 +22,6 @@ public class UserService {
 	/**
 	 * ユーザー情報 Repository
 	 */
-
-	@Autowired
-	private UserMapper userMapper;
 
 	/**
 	 * TODO ユーザーMapperクラス★
@@ -48,12 +44,11 @@ public class UserService {
 	 * ユーザー情報 主キー検索
 	 * @return 検索結果
 	 */
-	public UserEntity findById(Integer id) {
-
 		//★TODO 課題1 MybatisのUserMapperクラスを使用して実装してみましょう
-
-		return userMapper findById(Integer id);							
-	}
+	    public UserEntity findById(Integer id) {
+	        // MyBatisを使った主キー検索
+	        return userMapper.findById(id);
+	    }
 
 	/**
 	 * ユーザー情報 新規登録
@@ -79,6 +74,7 @@ public class UserService {
 	 */
 	public void update(UserUpdateRequest userUpdateRequest) {
 		UserEntity user = new UserEntity();
+		user.setId(userUpdateRequest.getId());
 		user.setAddress(userUpdateRequest.getAddress());
 		user.setName(userUpdateRequest.getName());
 		user.setPhone(userUpdateRequest.getPhone());
@@ -94,9 +90,8 @@ public class UserService {
 	 * ユーザー情報 物理削除
 	 * @param id ユーザーID
 	 */
-	public void delete(Integer id) {
-		UserEntity user = findById(id);
-		userMapper.delete(user);
-	}
+	   public void delete(Integer id) {
+	        userMapper.delete(id);
+	    }
 
 }

@@ -4,50 +4,63 @@
 
 <mapper namespace="com.example.demo.dao.UserMapper">
 
-	<!-- 全ユーザー取得 -->
-	<!--※ id=""はUserMapperクラスのメソッド名と一致させる-->
-	<select id="findAll" resultType="com.example.demo.entity.UserEntity">
-	
-	SELECT
-		id,
-		name,
-		address,
-		phone,
-		update_date,
-		create_date
-	FROM "user"<!-- "user は PostgreSQL の予約語なので、クォートしないとエラーになる" -->
-	ORDER BY id
-	
-	</select>
-	
-	<!-- 課題1 下記にユーザー情報の主キー検索SQLを記述 -->		
-<select id="findById" resultType="com.example.myapp.entity.UserEntity">			
-SELECT id, name, email			
-FROM users			
-WHERE id = #{id}			
-</select>			
-	
-	
-	
-	
-	<!-- 課題2 下記にユーザー情報の新規登録SQLを記述 -->
-	
-<insert id="insert" parameterType="com.example.myapp.entity.UserEntity">
-INSERT INTO users (id, name, email)
-VALUES (#{id}, #{name}, #{email})
-</insert>
-	
-	
-	
-	<!-- 課題3 下記にユーザー情報の更新する動的SQLを記述 ※<if test="name != null">name = #{name},</if> -->
+    <!-- 全ユーザー取得 -->
+    <select id="findAll" resultType="com.example.demo.entity.UserEntity">
+        SELECT
+            id,
+            name,
+            address,
+            phone,
+            update_date,
+            create_date
+        FROM "user"  <!-- PostgreSQLの予約語なのでクォートが必要 -->
+        ORDER BY id
+    </select>
 
-	<update id="update" >	
-UPDATE "テーブル名"	
-<set>	
-<if test="name != null">name = #{name},</if>	
-	
-</set>	
-WHERE id = #{id}	
-</update>	
+    <!-- 課題1: 主キー検索 -->
+    <select id="findById" resultType="com.example.demo.entity.UserEntity">
+        SELECT
+            id,
+            name,
+            address,
+            phone,
+            update_date,
+            create_date
+        FROM "user"
+        WHERE id = #{id}
+    </select>
 
+    <!-- 課題2: 新規登録 -->
+    <insert id="insert" parameterType="com.example.demo.entity.UserEntity"
+            useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO "user" (
+            name,
+            address,
+            phone,
+            update_date,
+            create_date
+        ) VALUES (
+            #{name},
+            #{address},
+            #{phone},
+            CURRENT_TIMESTAMP,
+            CURRENT_TIMESTAMP
+        )
+    </insert>
+
+    <!-- 課題3: 動的更新 -->
+    <update id="update" parameterType="com.example.demo.entity.UserEntity">
+        UPDATE "user"
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="address != null">address = #{address},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            update_date = CURRENT_TIMESTAMP
+        </set>
+        WHERE id = #{id}
+    </update>
+	    <delete id="delete" parameterType="int">
+        DELETE FROM "user"
+        WHERE id = #{id}
+    </delete>
 </mapper>
