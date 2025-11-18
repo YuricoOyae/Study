@@ -1,0 +1,109 @@
+2025-09-28 10:00:00 INFO  [System]        Application started.
+2025-09-28 10:01:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:02:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:03:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:04:00 INFO  [OrderService]  Order #10004 created by user 'carol'.
+2025-09-28 10:05:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:06:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:07:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:08:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:09:00 ERROR [OrderService]  Failed to create order #10009 (invalid data).
+2025-09-28 10:10:00 INFO  [System]        Application started.
+2025-09-28 10:11:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:12:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:13:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:14:00 INFO  [OrderService]  Order #10014 created by user 'carol'.
+2025-09-28 10:15:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:16:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:17:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:18:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:19:00 ERROR [OrderService]  Failed to create order #10019 (invalid data).
+2025-09-28 10:19:00 error [OrderService]  Failed to create order #10019 (invalid data).
+
+2025-09-28 10:20:00 INFO  [System]        Application started.
+2025-09-28 10:21:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:22:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:23:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:24:00 INFO  [OrderService]  Order #10024 created by user 'carol'.
+2025-09-28 10:25:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:26:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:27:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:28:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:29:00 ERROR [OrderService]  Failed to create order #10029 (invalid data).
+2025-09-28 10:30:00 INFO  [System]        Application started.
+2025-09-28 10:31:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:32:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:33:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:34:00 INFO  [OrderService]  Order #10034 created by user 'carol'.
+2025-09-28 10:35:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:36:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:37:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:38:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:39:00 ERROR [OrderService]  Failed to create order #10039 (invalid data).
+2025-09-28 10:39:00 error [OrderService]  Failed to create order #10039 (invalid data).
+
+2025-09-28 10:40:00 INFO  [System]        Application started.
+2025-09-28 10:41:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:42:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:43:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:44:00 INFO  [OrderService]  Order #10044 created by user 'carol'.
+2025-09-28 10:45:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:46:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:47:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:48:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:49:00 ERROR [OrderService]  Failed to create order #10049 (invalid data).
+2025-09-28 10:50:00 INFO  [System]        Application started.
+2025-09-28 10:51:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 10:52:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 10:53:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 10:54:00 INFO  [OrderService]  Order #10054 created by user 'carol'.
+2025-09-28 10:55:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 10:56:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 10:57:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 10:58:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 10:59:00 ERROR [OrderService]  Failed to create order #10059 (invalid data).
+2025-09-28 10:59:00 error [OrderService]  Failed to create order #10059 (invalid data).
+
+2025-09-28 11:00:00 INFO  [System]        Application started.
+2025-09-28 11:01:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 11:02:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 11:03:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 11:04:00 INFO  [OrderService]  Order #10064 created by user 'carol'.
+2025-09-28 11:05:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 11:06:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 11:07:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 11:08:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 11:09:00 ERROR [OrderService]  Failed to create order #10069 (invalid data).
+2025-09-28 11:10:00 INFO  [System]        Application started.
+2025-09-28 11:11:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 11:12:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 11:13:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 11:14:00 INFO  [OrderService]  Order #10074 created by user 'carol'.
+2025-09-28 11:15:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 11:16:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 11:17:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 11:18:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 11:19:00 ERROR [OrderService]  Failed to create order #10079 (invalid data).
+2025-09-28 11:19:00 error [OrderService]  Failed to create order #10079 (invalid data).
+
+2025-09-28 11:20:00 INFO  [System]        Application started.
+2025-09-28 11:21:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 11:22:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 11:23:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 11:24:00 INFO  [OrderService]  Order #10084 created by user 'carol'.
+2025-09-28 11:25:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 11:26:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 11:27:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 11:28:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 11:29:00 ERROR [OrderService]  Failed to create order #10089 (invalid data).
+2025-09-28 11:30:00 INFO  [System]        Application started.
+2025-09-28 11:31:00 INFO  [AuthService]   User 'alice' logged in successfully.
+2025-09-28 11:32:00 WARN  [AuthService]   User 'bob' failed to login (wrong password).
+2025-09-28 11:33:00 ERROR [Database]      Connection timeout while querying orders.
+2025-09-28 11:34:00 INFO  [OrderService]  Order #10094 created by user 'carol'.
+2025-09-28 11:35:00 WARN  [PaymentService] Payment delay detected for user 'bob'.
+2025-09-28 11:36:00 ERROR [PaymentService] Credit card declined for user 'frank'.
+2025-09-28 11:37:00 INFO  [AuthService]   User 'dave' logged out.
+2025-09-28 11:38:00 WARN  [Database]      Query took longer than expected.
+2025-09-28 11:39:00 ERROR [OrderService]  Failed to create order #10099 (invalid data).
+2025-09-28 11:39:00 error [OrderService]  Failed to create order #10099 (invalid data).
