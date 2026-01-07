@@ -41,5 +41,7 @@ public interface UserMapper {
 	// TODO 課題3 下記に記載
 	//※メソッドの戻り値の型はint型にします
 	int update(UserEntity user);
+
+	void delete(Integer id);
 	
 }

@@ -22,6 +22,7 @@ public class UserEntity  {
   /**
    * ID
    */
+	
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id")
